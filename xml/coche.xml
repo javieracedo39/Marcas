@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="coche.xsl"?>
+<coche>
+
+<Coche tipo="Bugatti Veyron">
+  <imagen ruta="beyron.jpg"/>
+  <motor>Motor: W16</motor>
+  <cilindrada>Cilindrada: 7993 cm3</cilindrada>
+  <potencia>1001 CV</potencia>
+  <precio>Precio: 1.280.000$ </precio>
+</Coche>
+
+<Coche tipo="Audi Rs7">
+  <imagen ruta="rs7.jpg"/>
+  <motor>Motor: V8</motor>
+  <cilindrada>Cilindrada: 3993 cm3</cilindrada>
+  <potencia>Potencia: 560 Cv</potencia>
+  <precio>Precio: 143.000 $</precio>
+</Coche>
+
+<Coche tipo="Ferrari 488">
+  <imagen ruta="ferrari.jpg"/>
+  <motor>Motor: V8</motor>
+  <cilindrada>Cilindrada: 3902 cm3</cilindrada>
+  <potencia>Potencia: 670Cv</potencia>
+  <precio>Precio: 238.000 $</precio>
+</Coche>
+
+<Coche tipo="Wolsvagen Golf R">
+  <imagen ruta="golf.jpg"/>
+  <motor>Motor: R Line</motor>
+  <cilindrada>Cilindrada: 1984 cm3</cilindrada>
+  <potencia>Potencia: 300Cv</potencia>
+  <precio>Precio: 45.000$ </precio>
+</Coche>
+
+</coche>
