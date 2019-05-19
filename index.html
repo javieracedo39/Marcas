@@ -1,0 +1,145 @@
+<html>
+
+<head>
+
+<meta charset="UTF-8"/>
+
+<title>KingMotors</title>
+
+<link rel="icon" type="image/png" href="imagenes/icono.png" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="css/inicio.css" >
+
+<script type="text/javascript" src="js/javascript.js"></script>
+
+
+</head>
+
+<body>
+		<!-- Navegcion -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+	 <a class="navbar-brand" href="index.html"> <img src="imagenes/logo.png" alt="Home" height="35" width="105"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav justify-content-center d-flex flex-fill">
+      <li class="nav-item active" name="navg">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" name="navg">
+        <a class="nav-link" href="Noticias/Noticias.html">Noticias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contacto/Contacto.html">Contactos</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Predilectos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Predilectos/peugeot.html">Peugeot e-legend</a>
+        </div>
+      </li>
+	  
+	  <li class="nav-items">
+			<a class="nav-link" href="https://es-es.facebook.com/"><img src="imagenes/fb.png" alt="Facebook" height="20" width="20"></a>
+      </li>
+	  	<li class="nav-items">
+			<a class="nav-link" href="https://twitter.com/"><img src="imagenes/tw.png" alt="Twitter" height="20" width="20"></a>
+      </li>
+	  	  <li class="nav-items">
+			<a class="nav-link" href="https://www.instagram.com/?hl=es"><img src="imagenes/ig.png" alt="Instagram" height="20" width="20"></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+		<!-- Carrusel -->
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img height="500px" class="d-block w-100" src="imagenes/bmw2.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img height="500px" class="d-block w-100" src="imagenes/lambo2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img height="500px" class="d-block w-100" src="imagenes/fiat2.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+	<!-- modal coche bootstrap ampliar imagen -->
+			<div id="myModal" class="modal">	
+				<span class="close">&times;</span>
+				<img  onclick="centerModal()" class="modal-content" id="img01">
+				<div id="caption"></div>
+			</div>
+
+		<!-- 3 coches -->
+<h1> Analisis de nuestros 3 coches mas fiables </h1>
+<div class="fiables">
+
+				<a href="https://www.audi.es/es/web/es/modelos/r8/r8-coupe-v10.html"><h2><u>Audi R8 Coupé V10</u></h2></a>
+		<div  class="coche">	
+			<img onclick=clickaction(this) class="car" id="myImg" src="imagenes/r8.jpg" alt="Audi R8" style="width:100%;max-width:300px">
+			<p id="texto">El Audi R8 Coupé V10 plus establece nuevos estándares: 449 kW (610 CV) de potencia, 
+			una velocidad máxima de 330 km / h y una aceleración de 0 a 100 km / h en 3,2 segundos;
+			un rendimiento impresionante que se ve subrayado por su impresionante diseño. Un modelo 
+			con el ADN de la competición. </p>
+			<p id="texto">El motor atmosférico V10 hará que la carretera vibre a tu paso gracias a su gran potencia.
+			En el caso del Audi R8 Coupé V10 plus, el motor es de 449 kW (610 CV). Además, la aceleración de 0 a 100 km / h
+			en 3,2 segundos y la velocidad máxima de 330 km / h del Audi R8 Coupé V10 plus te dejarán sin palabras.
+			Además, su motor central V10, situado bajo el parabrisas trasero, puede incluir un sistema de iluminación
+			propia que aporta una personalidad diferente al R8 Coupé V10 plus.</p>
+		</div>
+				<a href="https://www.bmw.es/es/coches-bmw/m/m4-coupe/2017/presentacion.html"><h2><u>Bmw M4 Coupé</u></h2></a>
+		<div  class="coche">				
+			<img onclick=clickaction(this) class="car" id="myImg1" src="imagenes/m4.jpg" alt="BMW M4" style="width:100%;max-width:300px">
+			<p id="texto">Un atleta de élite para la carretera y el circuito que permite disfrutar al máximo de los derrapajes
+			perfectos, las curvas rápidas y las rectas largas. Vivirás experiencias de máxima adrenalina con las manos sobre 
+			el volante de excelente agarre y los dedos listos para accionar rápidamente las levas.
+			El conductor, desde el asiento deportivo M, se fusiona con el vehículo. Un deportivo destinado a acelerar el pulso</p>
+			<p id="texto">La potencia del motor de gasolina de 6 cilindros BMW M TwinPower Turbo ha aumentado hasta los 331 kW (450 CV).
+			El sistema de escape deportivo M genera un sonido de motor especialmente potente y característico, pensado para emocionar.
+			Los asientos deportivos M son ligeros e incluyen respaldo con ajuste de anchura y aberturas verticales.</p>
+		</div>
+						<a href="https://www.tesla.com/es_ES/models"><h2><u>Tesla Model S</u></h2></a>
+		<div  class="coche">				
+			<img onclick=clickaction(this) class="car" id="myImg1" src="imagenes/tl.jpg" alt="Tesla Model S" style="height:180;width:100%;max-width:300px">
+			<p id="texto">El Model S está diseñado para la seguridad y para ser el vehículo más emocionante en la carretera,
+			desde su concepción. Con el incomparable rendimiento del exclusivo tren motriz eléctrico Tesla, el Model S acelera
+			de 0 a 100 km/h en tan solo 2,6 segundos. El Model S incluye la posibilidad de conducción asistida con Piloto automático,
+			diseñada para que pueda conducir en carretera no solo con más seguridad, sino también libre de estrés.</p>
+			<p id="texto">El Model S viene de serie con motor dual y tracción a las cuatro ruedas; además, el Model S Ludicrous Performance
+			empareja el motor trasero con un motor delantero de alto rendimiento para conseguir una gran velocidad. Ademas posee una gran auntonomía
+			que sera perfecto para poder hacer unos trayectos largos y confortables.</p>
+		</div>
+</div>
+
+
+
+
+</body>
+
+</html>
