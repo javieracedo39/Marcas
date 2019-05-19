@@ -1,0 +1,56 @@
+
+ body{
+				background-image: url("../imagenes/fondo.jpg");
+				background-repeat: no-repeat, repeat;
+				background-size: cover; 
+				
+}
+h1 {
+	color: white;
+	font-size: 4em;
+	margin: 20px 0;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 3%;
+}
+h2{
+	font-family: "Mystery Quest";
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	margin: 15px 0;
+	margin-bottom: 3%;
+}
+li.nav-item{
+	margin-left: 5%;
+}
+li.nav-item.dropdown{
+	margin-right: 20%;
+}
+.navbar-brand{
+	font-family: "Mystery Quest";
+}
+
+
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
